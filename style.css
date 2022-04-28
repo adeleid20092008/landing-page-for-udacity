@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-color: blueviolet;
+    position: relative;
+    top: 10rem;
+}
+section{
+   
+    margin:  1rem;
+    padding: 1rem;
+    height: 100vh;
+}
+section:nth-of-type(even){
+    background-color: yellow;
+}
+section:nth-of-type(odd){
+    background-color: blue;
+}
+section:nth-of-type(3n+1){
+    background-color: aquamarine;
+}
+section:nth-of-type(4n+1){
+    background-color: red;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px ,1fr));
+    background-color: rgb(58, 55, 55);
+    height: 3rem;
+    text-align: center;
+    position: fixed;
+    z-index: 500;
+    width: 100vw;
+  
+}
+ul > li >a {
+    color: white;
+    margin: 1rem;
+}
+button{
+    padding: 1rem;
+    width: 10rem;
+    margin: 3rem;
+    border-radius: 10px;
+    background-color: red;
+    position: relative;
+    top:35px;
+    z-index: 100;
+    border: 3px solid black;
+    position: fixed;
+}
+section.active-section{
+    background-color: black;
+    color:white;
+}
+.active-link{
+    background-color: white;
+    display: block;
+    width: 50px;
+    height: 100px;
+}
