@@ -13,3 +13,4 @@ you can install my project from git hub
 ### Footer
 
 i want to thank of udacity for teaching me agood practies
+"# new-landing-page"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/adeleid20092008/new-landing-page.git git push -u origin main
