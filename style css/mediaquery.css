@@ -1,0 +1,81 @@
+@media (max-width:1024px){
+    .text-p{
+        margin: 1rem 0;
+        font-size:25px;
+        text-transform: capitalize;
+    }
+}
+@media (max-width:760px){
+    .textcontent >.text-p{
+        font-size:25px;
+    }
+}
+@media (max-width:600px){
+    
+    section > div> .text-head{
+        font-size: 2em;
+    } 
+
+
+    .text-p{
+        margin: 1rem 0;
+        font-size:15px;
+        text-transform: capitalize;
+    }
+
+    .main-btn{
+        font-size: 45px;
+
+    }
+    .nav-list , .header , #list >.list-item {
+        background: none;
+        border : none;
+        
+    }
+    
+}
+@media (max-width:375px){
+    .main-btn{
+        font-size: 2rem;
+        text-align: center;
+    
+    }
+    .text-p{
+        margin: 1rem 0;
+        font-size:18px;
+        text-transform: capitalize;
+    }
+    
+#list > li > a{
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+}
+@media (max-width:361px){
+    .text-p{
+        margin: 1rem 0;
+        font-size:14px;
+        text-transform: capitalize;
+    }
+}
+@media (max-width:281px){
+    .main-btn{
+        font-size: 1.5rem;
+        text-align: center;
+    
+    }
+    section > div> .text-head{
+        font-size: 1.2em;
+    } 
+    .text-p{
+        margin: 1rem 0;
+        font-size:12px;
+        text-transform: capitalize;
+    }
+ 
+}
+
+

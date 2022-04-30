@@ -1,0 +1,32 @@
+section{
+    background-color: white;
+    width: 70%;
+    height: 100vh;
+    border: 1px solid black;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    position: relative;
+    top:20rem;
+
+}
+section > div{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-head{
+    font-size: 5rem;
+    color: red;
+    margin: 1rem 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+}
+.text-p{
+    margin: 1rem 0;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}

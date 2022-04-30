@@ -1,0 +1,30 @@
+.main-container{
+    background-color: rebeccapurple;
+    width: 80vw;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.main-btn{
+    font-size: 3rem;
+    border: 0.5rem solid red;
+    padding:1rem;
+    border-radius: 2rem;
+    background-color: white;
+    color: rgb(16, 230, 16);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    z-index: 200;
+    position: fixed;
+    top: 1rem;
+ 
+}
+.active-section{
+    background-color: yellowgreen;
+}
